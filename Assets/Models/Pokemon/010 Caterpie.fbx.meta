@@ -1,0 +1,1030 @@
+fileFormatVersion: 2
+guid: 2298592261d6741f79f89e839802a455
+timeCreated: 1458225530
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Body.001
+    100004: Body.002
+    100006: Body.003
+    100008: Body.004
+    100010: Body.005
+    100012: //RootNode
+    100014: Control
+    100016: Head
+    100018: Leg_down_L
+    100020: Leg_down_R
+    100022: Leg_up_L
+    100024: Leg_up_R
+    100026: Mesh
+    100028: Mouth
+    100030: Tail
+    400000: Armature
+    400002: Body.001
+    400004: Body.002
+    400006: Body.003
+    400008: Body.004
+    400010: Body.005
+    400012: //RootNode
+    400014: Control
+    400016: Head
+    400018: Leg_down_L
+    400020: Leg_down_R
+    400022: Leg_up_L
+    400024: Leg_up_R
+    400026: Mesh
+    400028: Mouth
+    400030: Tail
+    4300000: Mesh
+    7400000: Tackle
+    7400002: Wake Up
+    7400004: Bug Bite
+    7400006: Armature|At_SringShot
+    7400008: Armature|At_Tackle
+    7400010: Default
+    7400012: Faint
+    7400014: Fall
+    7400016: Idle Battle
+    7400018: Armature|Idle_old
+    7400020: Idle World
+    7400022: Jump
+    7400024: Knockback
+    7400026: Land
+    7400028: Run
+    7400030: Sleep
+    7400032: To Sleep
+    7400034: Armature|TurnOnSpotLeft
+    7400036: Armature|TurnOnSpotRight
+    7400038: Walk
+    7400040: Armature|Walking_old
+    7400042: Armature|WalkingLeft
+    7400044: Armature|WalkingRight
+    7400046: Mesh|Walking_old
+    9500000: //RootNode
+    13700000: Mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Tackle
+      takeName: 'Armature|*At_Tackle with model movement '
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Body.002
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001/Head
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001/Head/Mouth
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001/Leg_up_L
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001/Leg_up_R
+        weight: 1
+      - path: Armature/Control/Body.002/Leg_down_L
+        weight: 1
+      - path: Armature/Control/Body.002/Leg_down_R
+        weight: 1
+      - path: Armature/Control/Body.003
+        weight: 1
+      - path: Armature/Control/Body.003/Body.004
+        weight: 1
+      - path: Armature/Control/Body.003/Body.004/Body.005
+        weight: 1
+      - path: Armature/Control/Body.003/Body.004/Body.005/Tail
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Wake Up
+      takeName: Armature|*Wake_up (if not reversed)
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Body.002
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001/Head
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001/Head/Mouth
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001/Leg_up_L
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001/Leg_up_R
+        weight: 1
+      - path: Armature/Control/Body.002/Leg_down_L
+        weight: 1
+      - path: Armature/Control/Body.002/Leg_down_R
+        weight: 1
+      - path: Armature/Control/Body.003
+        weight: 1
+      - path: Armature/Control/Body.003/Body.004
+        weight: 1
+      - path: Armature/Control/Body.003/Body.004/Body.005
+        weight: 1
+      - path: Armature/Control/Body.003/Body.004/Body.005/Tail
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Bug Bite
+      takeName: Armature|At_BugBite
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Body.002
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001/Head
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001/Head/Mouth
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001/Leg_up_L
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001/Leg_up_R
+        weight: 1
+      - path: Armature/Control/Body.002/Leg_down_L
+        weight: 1
+      - path: Armature/Control/Body.002/Leg_down_R
+        weight: 1
+      - path: Armature/Control/Body.003
+        weight: 1
+      - path: Armature/Control/Body.003/Body.004
+        weight: 1
+      - path: Armature/Control/Body.003/Body.004/Body.005
+        weight: 1
+      - path: Armature/Control/Body.003/Body.004/Body.005/Tail
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Faint
+      takeName: Armature|Faint
+      firstFrame: 0
+      lastFrame: 54
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Body.002
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001/Head
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001/Head/Mouth
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001/Leg_up_L
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001/Leg_up_R
+        weight: 1
+      - path: Armature/Control/Body.002/Leg_down_L
+        weight: 1
+      - path: Armature/Control/Body.002/Leg_down_R
+        weight: 1
+      - path: Armature/Control/Body.003
+        weight: 1
+      - path: Armature/Control/Body.003/Body.004
+        weight: 1
+      - path: Armature/Control/Body.003/Body.004/Body.005
+        weight: 1
+      - path: Armature/Control/Body.003/Body.004/Body.005/Tail
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Fall
+      takeName: Armature|Falling
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Body.002
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001/Head
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001/Head/Mouth
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001/Leg_up_L
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001/Leg_up_R
+        weight: 1
+      - path: Armature/Control/Body.002/Leg_down_L
+        weight: 1
+      - path: Armature/Control/Body.002/Leg_down_R
+        weight: 1
+      - path: Armature/Control/Body.003
+        weight: 1
+      - path: Armature/Control/Body.003/Body.004
+        weight: 1
+      - path: Armature/Control/Body.003/Body.004/Body.005
+        weight: 1
+      - path: Armature/Control/Body.003/Body.004/Body.005/Tail
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle Battle
+      takeName: Armature|Idle_Battle
+      firstFrame: 0
+      lastFrame: 250
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Body.002
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001/Head
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001/Head/Mouth
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001/Leg_up_L
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001/Leg_up_R
+        weight: 1
+      - path: Armature/Control/Body.002/Leg_down_L
+        weight: 1
+      - path: Armature/Control/Body.002/Leg_down_R
+        weight: 1
+      - path: Armature/Control/Body.003
+        weight: 1
+      - path: Armature/Control/Body.003/Body.004
+        weight: 1
+      - path: Armature/Control/Body.003/Body.004/Body.005
+        weight: 1
+      - path: Armature/Control/Body.003/Body.004/Body.005/Tail
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle World
+      takeName: Armature|Idle_World
+      firstFrame: 0
+      lastFrame: 500
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Body.002
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001/Head
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001/Head/Mouth
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001/Leg_up_L
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001/Leg_up_R
+        weight: 1
+      - path: Armature/Control/Body.002/Leg_down_L
+        weight: 1
+      - path: Armature/Control/Body.002/Leg_down_R
+        weight: 1
+      - path: Armature/Control/Body.003
+        weight: 1
+      - path: Armature/Control/Body.003/Body.004
+        weight: 1
+      - path: Armature/Control/Body.003/Body.004/Body.005
+        weight: 1
+      - path: Armature/Control/Body.003/Body.004/Body.005/Tail
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Jump
+      takeName: Armature|Jump
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Body.002
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001/Head
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001/Head/Mouth
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001/Leg_up_L
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001/Leg_up_R
+        weight: 1
+      - path: Armature/Control/Body.002/Leg_down_L
+        weight: 1
+      - path: Armature/Control/Body.002/Leg_down_R
+        weight: 1
+      - path: Armature/Control/Body.003
+        weight: 1
+      - path: Armature/Control/Body.003/Body.004
+        weight: 1
+      - path: Armature/Control/Body.003/Body.004/Body.005
+        weight: 1
+      - path: Armature/Control/Body.003/Body.004/Body.005/Tail
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Knockback
+      takeName: Armature|Knockback
+      firstFrame: 0
+      lastFrame: 37
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Body.002
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001/Head
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001/Head/Mouth
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001/Leg_up_L
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001/Leg_up_R
+        weight: 1
+      - path: Armature/Control/Body.002/Leg_down_L
+        weight: 1
+      - path: Armature/Control/Body.002/Leg_down_R
+        weight: 1
+      - path: Armature/Control/Body.003
+        weight: 1
+      - path: Armature/Control/Body.003/Body.004
+        weight: 1
+      - path: Armature/Control/Body.003/Body.004/Body.005
+        weight: 1
+      - path: Armature/Control/Body.003/Body.004/Body.005/Tail
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Land
+      takeName: Armature|Landing
+      firstFrame: 0
+      lastFrame: 17
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Body.002
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001/Head
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001/Head/Mouth
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001/Leg_up_L
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001/Leg_up_R
+        weight: 1
+      - path: Armature/Control/Body.002/Leg_down_L
+        weight: 1
+      - path: Armature/Control/Body.002/Leg_down_R
+        weight: 1
+      - path: Armature/Control/Body.003
+        weight: 1
+      - path: Armature/Control/Body.003/Body.004
+        weight: 1
+      - path: Armature/Control/Body.003/Body.004/Body.005
+        weight: 1
+      - path: Armature/Control/Body.003/Body.004/Body.005/Tail
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Run
+      takeName: Armature|Run
+      firstFrame: 0
+      lastFrame: 18
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Body.002
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001/Head
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001/Head/Mouth
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001/Leg_up_L
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001/Leg_up_R
+        weight: 1
+      - path: Armature/Control/Body.002/Leg_down_L
+        weight: 1
+      - path: Armature/Control/Body.002/Leg_down_R
+        weight: 1
+      - path: Armature/Control/Body.003
+        weight: 1
+      - path: Armature/Control/Body.003/Body.004
+        weight: 1
+      - path: Armature/Control/Body.003/Body.004/Body.005
+        weight: 1
+      - path: Armature/Control/Body.003/Body.004/Body.005/Tail
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Sleep
+      takeName: Armature|Sleeping
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Body.002
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001/Head
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001/Head/Mouth
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001/Leg_up_L
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001/Leg_up_R
+        weight: 1
+      - path: Armature/Control/Body.002/Leg_down_L
+        weight: 1
+      - path: Armature/Control/Body.002/Leg_down_R
+        weight: 1
+      - path: Armature/Control/Body.003
+        weight: 1
+      - path: Armature/Control/Body.003/Body.004
+        weight: 1
+      - path: Armature/Control/Body.003/Body.004/Body.005
+        weight: 1
+      - path: Armature/Control/Body.003/Body.004/Body.005/Tail
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: To Sleep
+      takeName: Armature|To_Sleep
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Body.002
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001/Head
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001/Head/Mouth
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001/Leg_up_L
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001/Leg_up_R
+        weight: 1
+      - path: Armature/Control/Body.002/Leg_down_L
+        weight: 1
+      - path: Armature/Control/Body.002/Leg_down_R
+        weight: 1
+      - path: Armature/Control/Body.003
+        weight: 1
+      - path: Armature/Control/Body.003/Body.004
+        weight: 1
+      - path: Armature/Control/Body.003/Body.004/Body.005
+        weight: 1
+      - path: Armature/Control/Body.003/Body.004/Body.005/Tail
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk
+      takeName: Armature|Walk
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Body.002
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001/Head
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001/Head/Mouth
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001/Leg_up_L
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001/Leg_up_R
+        weight: 1
+      - path: Armature/Control/Body.002/Leg_down_L
+        weight: 1
+      - path: Armature/Control/Body.002/Leg_down_R
+        weight: 1
+      - path: Armature/Control/Body.003
+        weight: 1
+      - path: Armature/Control/Body.003/Body.004
+        weight: 1
+      - path: Armature/Control/Body.003/Body.004/Body.005
+        weight: 1
+      - path: Armature/Control/Body.003/Body.004/Body.005/Tail
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Default
+      takeName: Armature|Defaultpose
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Body.002
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001/Head
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001/Head/Mouth
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001/Leg_up_L
+        weight: 1
+      - path: Armature/Control/Body.002/Body.001/Leg_up_R
+        weight: 1
+      - path: Armature/Control/Body.002/Leg_down_L
+        weight: 1
+      - path: Armature/Control/Body.002/Leg_down_R
+        weight: 1
+      - path: Armature/Control/Body.003
+        weight: 1
+      - path: Armature/Control/Body.003/Body.004
+        weight: 1
+      - path: Armature/Control/Body.003/Body.004/Body.005
+        weight: 1
+      - path: Armature/Control/Body.003/Body.004/Body.005/Tail
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 1
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

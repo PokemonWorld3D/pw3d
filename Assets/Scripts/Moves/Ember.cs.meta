@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fc378ae1cb2954574b788ba87a9d1bcd
+timeCreated: 1470023157
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - icon: {fileID: 21300000, guid: 3b3fe40fe00b34b6895372184cb63409, type: 3}
+  - soundEffect: {fileID: 8300000, guid: 63bf083a706174e4f8677f3c1b532c81, type: 3}
+  - ember: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

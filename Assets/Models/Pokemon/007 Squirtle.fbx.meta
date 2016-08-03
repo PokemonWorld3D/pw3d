@@ -1,0 +1,3010 @@
+fileFormatVersion: 2
+guid: ce227ae4fca5d44ddb7922c5f0baf964
+timeCreated: 1461392735
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Arm_lower.L
+    100002: Arm_lower.R
+    100004: Arm_upper.L
+    100006: Arm_upper.R
+    100008: Armature
+    100010: Control
+    100012: Finger1.L
+    100014: Finger1.R
+    100016: Finger2.L
+    100018: Finger2.R
+    100020: Finger3.L
+    100022: Finger3.R
+    100024: Foot.L
+    100026: Foot.R
+    100028: Hand.L
+    100030: Hand.R
+    100032: Head
+    100034: Leg.L
+    100036: Leg.R
+    100038: Mouth
+    100040: Root
+    100042: Shell
+    100044: Squirtle
+    100046: //RootNode
+    100048: Tail_end
+    100050: Tail_middle
+    100052: Tail_start
+    100054: Thig.L
+    100056: Thig.R
+    400000: Arm_lower.L
+    400002: Arm_lower.R
+    400004: Arm_upper.L
+    400006: Arm_upper.R
+    400008: Armature
+    400010: Control
+    400012: Finger1.L
+    400014: Finger1.R
+    400016: Finger2.L
+    400018: Finger2.R
+    400020: Finger3.L
+    400022: Finger3.R
+    400024: Foot.L
+    400026: Foot.R
+    400028: Hand.L
+    400030: Hand.R
+    400032: Head
+    400034: Leg.L
+    400036: Leg.R
+    400038: Mouth
+    400040: Root
+    400042: Shell
+    400044: Squirtle
+    400046: //RootNode
+    400048: Tail_end
+    400050: Tail_middle
+    400052: Tail_start
+    400054: Thig.L
+    400056: Thig.R
+    4300000: Squirtle
+    7400000: Aqua Tail
+    7400002: Bite
+    7400004: Default
+    7400006: Faint
+    7400008: Falling
+    7400010: Hydrp Pump
+    7400012: Idle Battle
+    7400014: Idle World
+    7400016: Jump
+    7400018: Knock Back
+    7400020: Land
+    7400022: Rain Dance
+    7400024: Rapid Spin
+    7400026: Run
+    7400028: Armature|Run3 (0-20)
+    7400030: Shell Enter
+    7400032: Shell Exit
+    7400034: Shell Stay In
+    7400036: Armature|SHELL Stay In A (0-30)
+    7400038: Armature|SHELL Stay In B (0-30)
+    7400040: Skull Bash
+    7400042: Wake Up
+    7400044: Sleeping
+    7400046: To Sleep
+    7400048: Armature|Spinning Shell OLD (0-20)
+    7400050: Armature|Spinning Shell Out (0-60)
+    7400052: Shell Spin In Air
+    7400054: Spinning Shell In Air B
+    7400056: Swim Surface
+    7400058: Swim Fast
+    7400060: Swim Slow
+    7400062: Tackle
+    7400064: Tail Whip
+    7400066: Idle Water
+    7400068: Walk
+    7400070: Water GuN End
+    7400072: Water Gun Loop
+    7400074: Water Gun Start
+    7400076: Water Pulse
+    7400078: Squirtle|Default pose
+    9500000: //RootNode
+    13700000: Squirtle
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Shell Spin In Air
+      takeName: Armature|Spinning Shell Root Fix (0-20)
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Control
+        weight: 1
+      - path: Armature/Root/Control/Shell
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger1.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger2.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger3.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger1.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger2.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger3.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head/Mouth
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle/Tail_end
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L/Foot.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R/Foot.R
+        weight: 1
+      - path: Squirtle
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle World
+      takeName: Armature|Idle World
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Control
+        weight: 1
+      - path: Armature/Root/Control/Shell
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger1.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger2.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger3.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger1.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger2.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger3.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head/Mouth
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle/Tail_end
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L/Foot.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R/Foot.R
+        weight: 1
+      - path: Squirtle
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Aqua Tail
+      takeName: Armature|Aqua Tail New
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Control
+        weight: 1
+      - path: Armature/Root/Control/Shell
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger1.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger2.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger3.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger1.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger2.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger3.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head/Mouth
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle/Tail_end
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L/Foot.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R/Foot.R
+        weight: 1
+      - path: Squirtle
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Bite
+      takeName: Armature|Bite
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Control
+        weight: 1
+      - path: Armature/Root/Control/Shell
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger1.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger2.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger3.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger1.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger2.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger3.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head/Mouth
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle/Tail_end
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L/Foot.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R/Foot.R
+        weight: 1
+      - path: Squirtle
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Default
+      takeName: Armature|Default pose
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Control
+        weight: 1
+      - path: Armature/Root/Control/Shell
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger1.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger2.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger3.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger1.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger2.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger3.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head/Mouth
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle/Tail_end
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L/Foot.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R/Foot.R
+        weight: 1
+      - path: Squirtle
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Faint
+      takeName: Armature|Faint
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Control
+        weight: 1
+      - path: Armature/Root/Control/Shell
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger1.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger2.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger3.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger1.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger2.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger3.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head/Mouth
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle/Tail_end
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L/Foot.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R/Foot.R
+        weight: 1
+      - path: Squirtle
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Falling
+      takeName: Armature|Fall2 (0-60)
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Control
+        weight: 1
+      - path: Armature/Root/Control/Shell
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger1.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger2.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger3.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger1.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger2.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger3.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head/Mouth
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle/Tail_end
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L/Foot.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R/Foot.R
+        weight: 1
+      - path: Squirtle
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Hydrp Pump
+      takeName: Armature|Hydro Pump
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Control
+        weight: 1
+      - path: Armature/Root/Control/Shell
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger1.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger2.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger3.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger1.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger2.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger3.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head/Mouth
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle/Tail_end
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L/Foot.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R/Foot.R
+        weight: 1
+      - path: Squirtle
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle Battle
+      takeName: Armature|Idle Battle
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Control
+        weight: 1
+      - path: Armature/Root/Control/Shell
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger1.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger2.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger3.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger1.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger2.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger3.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head/Mouth
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle/Tail_end
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L/Foot.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R/Foot.R
+        weight: 1
+      - path: Squirtle
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Jump
+      takeName: Armature|Jump
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Control
+        weight: 1
+      - path: Armature/Root/Control/Shell
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger1.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger2.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger3.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger1.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger2.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger3.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head/Mouth
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle/Tail_end
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L/Foot.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R/Foot.R
+        weight: 1
+      - path: Squirtle
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Knock Back
+      takeName: Armature|Knock Back (0 - 30)
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Control
+        weight: 1
+      - path: Armature/Root/Control/Shell
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger1.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger2.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger3.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger1.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger2.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger3.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head/Mouth
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle/Tail_end
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L/Foot.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R/Foot.R
+        weight: 1
+      - path: Squirtle
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Land
+      takeName: Armature|Land
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Control
+        weight: 1
+      - path: Armature/Root/Control/Shell
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger1.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger2.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger3.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger1.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger2.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger3.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head/Mouth
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle/Tail_end
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L/Foot.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R/Foot.R
+        weight: 1
+      - path: Squirtle
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rain Dance
+      takeName: Armature|Rain Dance
+      firstFrame: 0
+      lastFrame: 110
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Control
+        weight: 1
+      - path: Armature/Root/Control/Shell
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger1.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger2.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger3.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger1.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger2.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger3.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head/Mouth
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle/Tail_end
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L/Foot.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R/Foot.R
+        weight: 1
+      - path: Squirtle
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rapid Spin
+      takeName: Armature|Rapid Spin
+      firstFrame: 0
+      lastFrame: 52
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Control
+        weight: 1
+      - path: Armature/Root/Control/Shell
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger1.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger2.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger3.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger1.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger2.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger3.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head/Mouth
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle/Tail_end
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L/Foot.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R/Foot.R
+        weight: 1
+      - path: Squirtle
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Run
+      takeName: Armature|Run 4 legs New (0-15).001
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Control
+        weight: 1
+      - path: Armature/Root/Control/Shell
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger1.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger2.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger3.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger1.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger2.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger3.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head/Mouth
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle/Tail_end
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L/Foot.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R/Foot.R
+        weight: 1
+      - path: Squirtle
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Shell Enter
+      takeName: Armature|SHELL Go In (0-30)
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Control
+        weight: 1
+      - path: Armature/Root/Control/Shell
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger1.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger2.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger3.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger1.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger2.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger3.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head/Mouth
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle/Tail_end
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L/Foot.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R/Foot.R
+        weight: 1
+      - path: Squirtle
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Shell Exit
+      takeName: Armature|SHELL Go Out (0-30)
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Control
+        weight: 1
+      - path: Armature/Root/Control/Shell
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger1.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger2.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger3.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger1.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger2.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger3.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head/Mouth
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle/Tail_end
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L/Foot.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R/Foot.R
+        weight: 1
+      - path: Squirtle
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Shell Stay In
+      takeName: Armature|SHELL Stay In  B Smooth (0-30)
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Control
+        weight: 1
+      - path: Armature/Root/Control/Shell
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger1.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger2.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger3.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger1.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger2.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger3.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head/Mouth
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle/Tail_end
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L/Foot.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R/Foot.R
+        weight: 1
+      - path: Squirtle
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Skull Bash
+      takeName: Armature|Skull Bash
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Control
+        weight: 1
+      - path: Armature/Root/Control/Shell
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger1.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger2.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger3.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger1.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger2.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger3.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head/Mouth
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle/Tail_end
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L/Foot.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R/Foot.R
+        weight: 1
+      - path: Squirtle
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Wake Up
+      takeName: Armature|Sleep End
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Control
+        weight: 1
+      - path: Armature/Root/Control/Shell
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger1.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger2.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger3.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger1.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger2.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger3.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head/Mouth
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle/Tail_end
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L/Foot.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R/Foot.R
+        weight: 1
+      - path: Squirtle
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Sleeping
+      takeName: Armature|Sleep Loop (0-60)
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Control
+        weight: 1
+      - path: Armature/Root/Control/Shell
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger1.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger2.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger3.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger1.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger2.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger3.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head/Mouth
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle/Tail_end
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L/Foot.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R/Foot.R
+        weight: 1
+      - path: Squirtle
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: To Sleep
+      takeName: Armature|Sleep Start
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Control
+        weight: 1
+      - path: Armature/Root/Control/Shell
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger1.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger2.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger3.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger1.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger2.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger3.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head/Mouth
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle/Tail_end
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L/Foot.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R/Foot.R
+        weight: 1
+      - path: Squirtle
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Swim Surface
+      takeName: Armature|Surface swim (0-30)
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Control
+        weight: 1
+      - path: Armature/Root/Control/Shell
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger1.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger2.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger3.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger1.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger2.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger3.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head/Mouth
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle/Tail_end
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L/Foot.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R/Foot.R
+        weight: 1
+      - path: Squirtle
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Swim Fast
+      takeName: Armature|Swim Fast New (0-15)
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Control
+        weight: 1
+      - path: Armature/Root/Control/Shell
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger1.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger2.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger3.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger1.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger2.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger3.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head/Mouth
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle/Tail_end
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L/Foot.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R/Foot.R
+        weight: 1
+      - path: Squirtle
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Swim Slow
+      takeName: Armature|Swim Slow (0-40)
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Control
+        weight: 1
+      - path: Armature/Root/Control/Shell
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger1.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger2.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger3.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger1.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger2.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger3.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head/Mouth
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle/Tail_end
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L/Foot.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R/Foot.R
+        weight: 1
+      - path: Squirtle
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Tackle
+      takeName: Armature|Tackle
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Control
+        weight: 1
+      - path: Armature/Root/Control/Shell
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger1.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger2.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger3.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger1.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger2.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger3.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head/Mouth
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle/Tail_end
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L/Foot.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R/Foot.R
+        weight: 1
+      - path: Squirtle
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Tail Whip
+      takeName: Armature|Tail Whip
+      firstFrame: 0
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Control
+        weight: 1
+      - path: Armature/Root/Control/Shell
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger1.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger2.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger3.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger1.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger2.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger3.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head/Mouth
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle/Tail_end
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L/Foot.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R/Foot.R
+        weight: 1
+      - path: Squirtle
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle Water
+      takeName: Armature|Treading Water (0-60)
+      firstFrame: 0
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Control
+        weight: 1
+      - path: Armature/Root/Control/Shell
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger1.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger2.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger3.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger1.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger2.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger3.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head/Mouth
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle/Tail_end
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L/Foot.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R/Foot.R
+        weight: 1
+      - path: Squirtle
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk
+      takeName: Armature|Walk
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Control
+        weight: 1
+      - path: Armature/Root/Control/Shell
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger1.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger2.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger3.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger1.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger2.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger3.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head/Mouth
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle/Tail_end
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L/Foot.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R/Foot.R
+        weight: 1
+      - path: Squirtle
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Water GuN End
+      takeName: Armature|Water Gun End
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Control
+        weight: 1
+      - path: Armature/Root/Control/Shell
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger1.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger2.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger3.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger1.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger2.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger3.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head/Mouth
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle/Tail_end
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L/Foot.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R/Foot.R
+        weight: 1
+      - path: Squirtle
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Water Gun Loop
+      takeName: Armature|Water Gun Loop (0-40)
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Control
+        weight: 1
+      - path: Armature/Root/Control/Shell
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger1.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger2.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger3.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger1.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger2.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger3.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head/Mouth
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle/Tail_end
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L/Foot.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R/Foot.R
+        weight: 1
+      - path: Squirtle
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Water Gun Start
+      takeName: Armature|Water Gun Start
+      firstFrame: 0
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Control
+        weight: 1
+      - path: Armature/Root/Control/Shell
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger1.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger2.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger3.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger1.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger2.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger3.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head/Mouth
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle/Tail_end
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L/Foot.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R/Foot.R
+        weight: 1
+      - path: Squirtle
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Water Pulse
+      takeName: Armature|Water Pulse
+      firstFrame: 0
+      lastFrame: 105
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Control
+        weight: 1
+      - path: Armature/Root/Control/Shell
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger1.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger2.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.L/Arm_lower.L/Hand.L/Finger3.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger1.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger2.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Arm_upper.R/Arm_lower.R/Hand.R/Finger3.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head
+        weight: 1
+      - path: Armature/Root/Control/Shell/Head/Mouth
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle
+        weight: 1
+      - path: Armature/Root/Control/Shell/Tail_start/Tail_middle/Tail_end
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.L/Leg.L/Foot.L
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R
+        weight: 1
+      - path: Armature/Root/Control/Shell/Thig.R/Leg.R/Foot.R
+        weight: 1
+      - path: Squirtle
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 1
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
