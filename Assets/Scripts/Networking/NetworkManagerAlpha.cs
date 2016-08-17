@@ -14,11 +14,11 @@ public class NetworkManagerAlpha : NetworkManager
 
 	[SerializeField] private string serverName;	//ALSO KNOWN AS THE singleton.matchName
 	[SerializeField] private Vector3 startPos;
+	[SerializeField] private int versionNum;
 
 	void Start()
 	{
 		singleton.StartMatchMaker();
-		singleton.matchMaker.SetProgramAppID((AppID)404501);
 	}
 
 	public override void OnClientConnect(NetworkConnection con)
@@ -51,14 +51,14 @@ public class NetworkManagerAlpha : NetworkManager
 
 		NetworkServer.RegisterHandler((short)Messages.MessageTypes.CHAT_MESSAGE, OnServerChatMessage);
 	}
-	public override void OnMatchList(ListMatchResponse matchList)
-	{
-		matches = matchList.matches;
-	}
+//	public override void OnMatchList(ListMatchResponse matchList)
+//	{
+//		matches = matchList.matches;
+//	}
 
 	public void InitServer()
 	{
-		singleton.matchMaker.CreateMatch(serverName, 4, true, "", singleton.OnMatchCreate);
+		singleton.matchMaker.CreateMatch(serverName, 20, true, "", "", "", 0, versionNum, base.OnMatchCreate);
 	}
 	private void OnServerChatMessage(NetworkMessage netMsg)
 	{
@@ -88,25 +88,25 @@ public class NetworkManagerAlpha : NetworkManager
 		singleton.client.connection.playerControllers[0].gameObject.GetComponent<Trainer>().hud.AddToBattleChat(msg.message);
 	}
 
-	public IEnumerator JoinServer()
-	{
-		if(singleton.matches == null)
-			singleton.matchMaker.ListMatches(0, 20, "", singleton.OnMatchList);
-
-		while(singleton.matches == null)
-			yield return null;
-
-		for(int i = 0; i < singleton.matches.Count; i++)
-			if(singleton.matches[i].name == serverName)
-			{
-				singleton.matchName = singleton.matches[i].name;
-				singleton.matchSize = (uint)singleton.matches[i].currentSize;
-				singleton.matchMaker.JoinMatch(singleton.matches[i].networkId, "", singleton.OnMatchJoined);
-				break;
-			}
-
-		yield return null;
-	}
+//	public IEnumerator JoinServer()
+//	{
+//		if(singleton.matches == null)
+//			singleton.matchMaker.ListMatches(0, 20, "", singleton.OnMatchList);
+//
+//		while(singleton.matches == null)
+//			yield return null;
+//
+//		for(int i = 0; i < singleton.matches.Count; i++)
+//			if(singleton.matches[i].name == serverName)
+//			{
+//				singleton.matchName = singleton.matches[i].name;
+//				singleton.matchSize = (uint)singleton.matches[i].currentSize;
+//				singleton.matchMaker.JoinMatch(singleton.matches[i].networkId, "", singleton.OnMatchJoined);
+//				break;
+//			}
+//
+//		yield return null;
+//	}
 
 	private IEnumerator SetupPlayer(NetworkConnection con, short playerControllerId, string characterName, Poke_Data starterData)
 	{

@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced '_World2Object' with 'unity_WorldToObject'
+
 
 // Toony Colors Pro+Mobile 2
 // (c) 2014,2015 Jean Moreno
@@ -108,7 +110,7 @@ Shader "Hidden/Toony Colors Pro 2/Variants/Desktop Specular Rim Outline"
 		{
 			float3 camPos = _WorldSpaceCameraPos;
 			camPos += mul(_RimDir, UNITY_MATRIX_V).xyz;
-			float3 objSpaceCameraPos = mul(_World2Object, float4(camPos, 1)).xyz;
+			float3 objSpaceCameraPos = mul(unity_WorldToObject, float4(camPos, 1)).xyz;
 			return objSpaceCameraPos - v.xyz;
 		}
 	#endif

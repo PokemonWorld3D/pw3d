@@ -4,7 +4,7 @@ using System.Collections;
 
 public class Main_Menu : MonoBehaviour
 {
-	public Network_Manager netManager;
+//	public Network_Manager netManager;
 	public Text messageText, usernameText, passwordText, regNameText, regUsernameText, regPassText, regConfPassText, regEmailText, charNameText;
 	public Text[] CharacterButtonTexts;
 	public GameObject logInPanel, characterPanel, creationPanel;
@@ -68,7 +68,7 @@ public class Main_Menu : MonoBehaviour
 	{
 		messageText.text = "";
 		
-		username = netManager.username;
+//		username = netManager.username;
 		charName = charNameText.text;
 		
 		if (charName == "")
@@ -99,7 +99,7 @@ public class Main_Menu : MonoBehaviour
 		{
 			if (_w.text == "Log in successful!")
 			{
-				netManager.username = username;
+//				netManager.username = username;
 				logInPanel.SetActive(false);
 				characterPanel.SetActive(true);
 				
@@ -164,12 +164,12 @@ public class Main_Menu : MonoBehaviour
 		{
 //			string[] results = w.text.Split(',');
 
-			netManager.characterName = characterName;
+//			netManager.characterName = characterName;
 
-			if(netManager.thisIsTheServer)
-				netManager.InitServer();
-			else
-				StartCoroutine(netManager.JoinServer());
+//			if(netManager.thisIsTheServer)
+//				netManager.InitServer();
+//			else
+//				StartCoroutine(netManager.JoinServer());
 		}
 	}
 }

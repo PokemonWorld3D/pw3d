@@ -93,8 +93,8 @@ public class MainMenuAlpha : MonoBehaviour
 	{
 		if(netManager.thisIsTheServer)
 			netManager.InitServer();
-		else
-			StartCoroutine(netManager.JoinServer());
+//		else
+//			StartCoroutine(netManager.JoinServer());
 	}
 
 	public void MouseEnterPokeBall(Image pokeBall)
